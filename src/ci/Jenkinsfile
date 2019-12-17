@@ -8,7 +8,7 @@ pipeline {
         buildDiscarder(logRotator(daysToKeepStr: '30'))
     }
     tools {
-        maven 'Maven 3.5.4'
+        maven 'Maven 3'
         jdk 'jdk8'
     }
     stages {
